@@ -15,8 +15,6 @@ bot_token = os.getenv('BOT_TOKEN')
 channel_id = os.getenv('API_KEY')
 bot = Bot(token=bot_token)
 
-print(f"Bot Token: {bot_token}")
-print(f"API Key: {api_key}")
 # Load the data from the JSON file with error handling
 def load_data():
     try:
